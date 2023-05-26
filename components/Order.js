@@ -19,9 +19,9 @@ const Order = ({id, amount, amountShipping, items, timestamp, images}) => {
             </div>
             <div>
                 <div className="flex gap-10 p-5 ml-3 overflow-x-auto">
-                    {images.map((image) => (
+                    {images.map(({image, key}) => (
                         
-                        <Image alt="" src={image} width={100} height={100}></Image>
+                        <Image key={key} alt="" src={image} width={100} height={100}></Image>
                         
                     ))}
 
