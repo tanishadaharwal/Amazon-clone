@@ -11,11 +11,16 @@
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^1.9.5",
+    "@stripe/stripe-js": "^1.53.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
-    "firebase": "^9.22.0",
+    "firebase": "^9.22.1",
+    "firebase-admin": "^11.8.0",
+    "micro": "^10.0.1",
+    "moment": "^2.29.4",
     "next": "13.4.3",
     "next-auth": "^4.22.1",
     "postcss": "8.4.23",
@@ -23,6 +28,7 @@
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
     "react-responsive-carousel": "^3.2.23",
+    "stripe": "^12.7.0",
     "tailwindcss": "3.3.2"
   }
 }

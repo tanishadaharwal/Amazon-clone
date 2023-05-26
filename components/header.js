@@ -35,14 +35,14 @@ const Header = () => {
                     
                     <div className="text-white cursor-pointer hover:underline">
                         <p>Returns</p>
-                        <p className="font-bold">& Orders</p>
+                        <p onClick={() => router.push("/orders")}className="font-bold">& Orders</p>
 
                     </div>
 
-                    <div onClick={() => router.push('/checkout')}className="relative flex text-white items-center text-center cursor-pointer hover:underline">
-                        <span className="absolute top-0 right-0 md:right-10 h-4 w-5 pb-5 items-center text-center rounded-full bg-yellow-400 text-black font-bold">{items.length}</span>
+                    <div onClick={() => router.push('/checkout')}className="relative flexflex-col items-center text-white cursor-pointer hover:underline ">
+                        <div className="absolute  ml-5  items-center justify-center text-center rounded-full w-5 h-5  bg-yellow-400 text-black font-bold">{items.length}</div>
                         <ShoppingCartIcon className="h-10" />
-                        <p className="hidden md:inline font-bold mt-5">Cart</p>
+                        <p className="ml-1 hidden md:inline font-bold mt-5">Cart</p>
 
                 </div>
 
