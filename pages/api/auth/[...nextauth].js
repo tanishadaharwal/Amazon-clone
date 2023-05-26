@@ -14,5 +14,6 @@ export default NextAuth({
     }),
     // Passwordless / email sign in
     
-  ]
+  ],
+  secret: process.env.NEXTAUTH_SECRET
 })
